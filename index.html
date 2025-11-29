@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web IL SDGs</title>
+    <link rel="stylesheet" href="sdg.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="header1.png" alt="Header SDGs">
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li class="dropdown">
+                <a href="#" onclick="showPage('beranda')">HOME</a>
+                <div class="dropdown-content">
+                    <a href="#" onclick="showPage('sdg-umum')">APA ITU SDGs?</a>
+                    <a href="#" onclick="showPage('sdg4-fokus')">FOKUS KAMI (SDG 4)</a>
+                </div>
+            </li>
+            
+            <li class="dropdown">
+                <a href="#" onclick="showPage('analisis-page')">ANALISIS</a>
+                <div class="dropdown-content">
+                    <a href="#" onclick="showPage('analisis-kondisi')">KONDISI & TANTANGAN</a>
+                    <a href="#" onclick="showPage('analisis-potensi')">POTENSI & PELUANG</a>
+                    <a href="#" onclick="showPage('analisis-peran')">PERAN MASYARAKAT</a>
+                </div>
+            </li>
+
+            <li><a href="#" onclick="showPage('solusi')">SOLUSI</a></li>
+
+            <li class="dropdown">
+                <a href="#" onclick="showPage('kerjasama-page')">KERJASAMA</a>
+                <div class="dropdown-content">
+                    <a href="#" onclick="showPage('kerjasama-bilateral')">BILATERAL</a>
+                    <a href="#" onclick="showPage('kerjasama-regional')">REGIONAL</a>
+                    <a href="#" onclick="showPage('kerjasama-multilateral')">MULTILATERAL</a>
+                </div>
+            </li>
+
+            <li><a href="#" onclick="showPage('tentang')">TENTANG KAMI</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="beranda" class="page active">
+            <div class="card">
+                <h1>🏠 Selamat Datang di Website SDGs Kolaborasi</h1>
+                <p>Website ini dibuat untuk memberikan informasi tentang SDGs, khususnya SDG 4 tentang Pendidikan Berkualitas. Harapannya, pembaca bisa memahami tujuan, tantangan, dan upaya yang dapat dilakukan untuk mendukung pembangunan berkelanjutan. Semoga isi website ini bermanfaat dan mudah dipahami. Pilih sub-menu di atas (misalnya: Apa Itu SDGs? atau Fokus Kami) untuk langsung menuju ke informasi yang Anda butuhkan, atau geser ke bawah untuk ringkasan.</p>
+            </div>
+        </section>
+
+        <section id="sdg-umum" class="page">
+            <div class="card">
+                <h1>🌍 17 TUJUAN SDGs (Sustainable Development Goals)</h1>
+                <p>Sustainable Development Goals (SDGs) adalah agenda pembangunan global yang disusun oleh Perserikatan Bangsa-Bangsa (PBB) untuk menciptakan dunia yang lebih baik pada tahun 2030. SDGs terdiri dari 17 tujuan besar yang berkaitan dengan isu ekonomi, sosial, lingkungan, dan keberlanjutan.</p>
+                
+                <div class="sdg-container">
+                    <!-- SDG 1 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg1.png" alt="SDG 1 - No Poverty" class="sdg-img-normal">
+                            <img src="contoh1.jpg" alt="SDG 1 - No Poverty Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>1. TANPA KEMISKINAN</h2>
+                            <p>Mengakhiri kemiskinan dalam segala bentuk di mana pun. Tujuan ini berfokus pada pemberian akses terhadap sumber daya ekonomi, layanan dasar, dan perlindungan sosial bagi semua orang, serta membangun ketahanan masyarakat miskin dan rentan.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 2 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg2.png" alt="SDG 2 - Zero Hunger" class="sdg-img-normal">
+                            <img src="contoh2.jpg" alt="SDG 2 - Zero Hunger Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>2. TANPA KELAPARAN</h2>
+                            <p>Mengakhiri kelaparan, mencapai ketahanan pangan dan perbaikan nutrisi, serta mendorong pertanian berkelanjutan. Memastikan semua orang memiliki akses terhadap makanan yang aman, bergizi, dan cukup sepanjang tahun.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 3 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg3.png" alt="SDG 3 - Good Health" class="sdg-img-normal">
+                            <img src="contoh3.png" alt="SDG 3 - Good Health Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>3. KEHIDUPAN SEHAT DAN SEJAHTERA</h2>
+                            <p>Memastikan kehidupan yang sehat dan mendukung kesejahteraan bagi semua orang di segala usia. Mencakup pengurangan angka kematian ibu dan anak, serta pemberantasan penyakit menular dan tidak menular.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 4 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg4.png" alt="SDG 4 - Quality Education" class="sdg-img-normal">
+                            <img src="contoh4.jpg" alt="SDG 4 - Quality Education Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>4. PENDIDIKAN BERKUALITAS</h2>
+                            <p>Memastikan pendidikan yang inklusif dan berkualitas setara, serta mendukung kesempatan belajar seumur hidup bagi semua. Fokus pada akses pendidikan yang merata dan peningkatan kualitas pembelajaran.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 5 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg5.png" alt="SDG 5 - Gender Equality" class="sdg-img-normal">
+                            <img src="contoh5.jpg" alt="SDG 5 - Gender Equality Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>5. KESETARAAN GENDER</h2>
+                            <p>Mencapai kesetaraan gender dan memberdayakan semua perempuan dan anak perempuan. Menghapus diskriminasi, kekerasan berbasis gender, serta memastikan partisipasi penuh dalam kepemimpinan dan pengambilan keputusan.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 6 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg6.png" alt="SDG 6 - Clean Water" class="sdg-img-normal">
+                            <img src="contoh6.png" alt="SDG 6 - Clean Water Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>6. AIR BERSIH DAN SANITASI LAYAK</h2>
+                            <p>Menjamin ketersediaan dan pengelolaan air bersih serta sanitasi yang berkelanjutan untuk semua. Mencakup akses universal terhadap air minum yang aman dan terjangkau, serta pengelolaan sumber daya air yang berkelanjutan.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 7 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg7.png" alt="SDG 7 - Clean Energy" class="sdg-img-normal">
+                            <img src="contoh7.jpg" alt="SDG 7 - Clean Energy Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>7. ENERGI BERSIH DAN TERJANGKAU</h2>
+                            <p>Memastikan akses terhadap energi yang terjangkau, andal, berkelanjutan, dan modern untuk semua. Mendorong penggunaan energi terbarukan dan peningkatan efisiensi energi di berbagai sektor.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 8 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg8.png" alt="SDG 8 - Decent Work" class="sdg-img-normal">
+                            <img src="contoh8.jpeg" alt="SDG 8 - Decent Work Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>8. PEKERJAAN LAYAK DAN PERTUMBUHAN EKONOMI</h2>
+                            <p>Mendorong pertumbuhan ekonomi yang berkelanjutan dan inklusif, kesempatan kerja penuh dan produktif, serta pekerjaan yang layak untuk semua. Mendukung kewirausahaan dan inovasi dalam menciptakan lapangan kerja.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 9 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg9.png" alt="SDG 9 - Industry Innovation" class="sdg-img-normal">
+                            <img src="contoh9.jpg" alt="SDG 9 - Industry Innovation Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>9. INDUSTRI, INOVASI DAN INFRASTRUKTUR</h2>
+                            <p>Membangun infrastruktur yang tangguh, mempromosikan industrialisasi yang inklusif dan berkelanjutan, serta mendorong inovasi. Mengembangkan infrastruktur berkualitas yang mendukung pembangunan ekonomi dan kesejahteraan manusia.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 10 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg10.png" alt="SDG 10 - Reduced Inequality" class="sdg-img-normal">
+                            <img src="contoh10.jpg" alt="SDG 10 - Reduced Inequality Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>10. BERKURANGNYA KESENJANGAN</h2>
+                            <p>Mengurangi kesenjangan dalam dan antar negara. Mempromosikan inklusi sosial, ekonomi, dan politik bagi semua, terlepas dari usia, jenis kelamin, disabilitas, ras, etnis, asal usul, agama, atau status ekonomi lainnya.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 11 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg11.png" alt="SDG 11 - Sustainable Cities" class="sdg-img-normal">
+                            <img src="contoh11.jpg" alt="SDG 11 - Sustainable Cities Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>11. KOTA DAN KOMUNITAS BERKELANJUTAN</h2>
+                            <p>Membuat kota dan permukiman inklusif, aman, tangguh, dan berkelanjutan. Mengembangkan perkotaan yang berkelanjutan dengan akses terhadap perumahan layak, transportasi umum, dan ruang terbuka hijau.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 12 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg12.png" alt="SDG 12 - Responsible Consumption" class="sdg-img-normal">
+                            <img src="contoh12.jpg" alt="SDG 12 - Responsible Consumption Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>12. KONSUMSI DAN PRODUKSI BERTANGGUNG JAWAB</h2>
+                            <p>Memastikan pola konsumsi dan produksi yang berkelanjutan. Mengelola sumber daya alam secara efisien, mengurangi limbah, dan mendorong praktik bisnis yang berkelanjutan.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 13 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg13.png" alt="SDG 13 - Climate Action" class="sdg-img-normal">
+                            <img src="contoh13.jpeg" alt="SDG 13 - Climate Action Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>13. PENANGANAN PERUBAHAN IKLIM</h2>
+                            <p>Mengambil tindakan segera untuk memerangi perubahan iklim dan dampaknya. Memperkuat ketahanan terhadap bahaya terkait iklim dan mengintegrasikan langkah-langkah perubahan iklim ke dalam kebijakan nasional.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 14 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg14.jpg" alt="SDG 14 - Life Below Water" class="sdg-img-normal">
+                            <img src="contoh14.jpeg" alt="SDG 14 - Life Below Water Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>14. EKOSISTEM LAUTAN</h2>
+                            <p>Melestarikan dan memanfaatkan secara berkelanjutan sumber daya kelautan untuk pembangunan berkelanjutan. Mengurangi polusi laut, melindungi ekosistem laut, dan mengatur penangkapan ikan berlebihan.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 15 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg15.png" alt="SDG 15 - Life on Land" class="sdg-img-normal">
+                            <img src="contoh15.jpg" alt="SDG 15 - Life on Land Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>15. EKOSISTEM DARATAN</h2>
+                            <p>Melindungi, memulihkan, dan mendukung penggunaan berkelanjutan ekosistem daratan. Mengelola hutan secara berkelanjutan, memerangi desertifikasi, serta menghentikan kehilangan keanekaragaman hayati.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 16 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg16.png" alt="SDG 16 - Peace and Justice" class="sdg-img-normal">
+                            <img src="contoh16.png" alt="SDG 16 - Peace and Justice Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>16. PERDAMAIAN, KEADILAN DAN KELEMBAGAAN YANG TANGGUH</h2>
+                            <p>Mendorong masyarakat yang damai dan inklusif untuk pembangunan berkelanjutan. Mengurangi kekerasan, memerangi kejahatan terorganisir, serta membangun institusi yang efektif dan akuntabel.</p>
+                        </div>
+                    </div>
+
+                    <!-- SDG 17 -->
+                    <div class="sdg-item">
+                        <div class="sdg-image-hover">
+                            <img src="sdg17.png" alt="SDG 17 - Partnerships" class="sdg-img-normal">
+                            <img src="contoh17.jpg" alt="SDG 17 - Partnerships Detail" class="sdg-img-hover">
+                        </div>
+                        <div class="sdg-text">
+                            <h2>17. KEMITRAAN UNTUK MENCAPAI TUJUAN</h2>
+                            <p>Memperkuat sarana pelaksanaan dan merevitalisasi kemitraan global untuk pembangunan berkelanjutan. Meningkatkan kerja sama internasional dalam bidang keuangan, teknologi, dan peningkatan kapasitas.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SDG 4 FOKUS DENGAN LAYOUT BARU -->
+        <section id="sdg4-fokus" class="page">
+            <div class="card">
+                <h1>🎓 SDG 4 – PENDIDIKAN BERKUALITAS</h1>
+                
+                <div class="sdg4-content">
+                    <!-- Paragraf 1 - Kiri -->
+                    <div class="paragraf-item paragraf-kiri">
+                        <div class="paragraf-gambar">
+                            <img src="pendidikan1.1.jpg" alt="Pendidikan Inklusif">
+                        </div>
+                        <div class="paragraf-teks">
+                            <h3>Pendidikan untuk Semua</h3>
+                            <p>SDG 4 adalah tujuan pembangunan berkelanjutan yang berfokus pada penyediaan pendidikan berkualitas, inklusif, dan merata bagi semua orang. Tujuan ini menegaskan bahwa setiap individu, tanpa melihat latar belakang sosial, ekonomi, gender, atau lokasi tempat tinggal, berhak mendapatkan kesempatan belajar yang sama. Pendidikan tidak hanya dilihat sebagai proses masuk sekolah, tetapi juga sebagai pengalaman belajar yang aman, mendukung, dan relevan dengan kebutuhan masa depan.</p>
+                        </div>
+                    </div>
+
+                    <!-- Paragraf 2 - Kanan -->
+                    <div class="paragraf-item paragraf-kanan">
+                        <div class="paragraf-teks">
+                            <h3>Peningkatan Kualitas Pendidikan</h3>
+                            <p>SDG 4 menyoroti beberapa hal penting, seperti akses pendidikan dasar dan menengah secara gratis, peningkatan kemampuan guru melalui pelatihan, penyediaan fasilitas yang layak, serta pengembangan kurikulum yang lebih adaptif terhadap perkembangan zaman. Selain itu, SDG 4 juga mendorong kesempatan pendidikan sepanjang hayat, termasuk pelatihan keterampilan, kursus, dan pembelajaran berbasis teknologi.</p>
+                        </div>
+                        <div class="paragraf-gambar">
+                            <img src="pendidikan2.jpg" alt="Teknologi Pendidikan">
+                        </div>
+                    </div>
+
+                    <!-- Paragraf 3 - Kiri -->
+                    <div class="paragraf-item paragraf-kiri">
+                        <div class="paragraf-gambar">
+                            <img src="pendidikan3.jpeg" alt="Dampak Pendidikan">
+                        </div>
+                        <div class="paragraf-teks">
+                            <h3>Dampak Pendidikan Berkualitas</h3>
+                            <p>Dengan tercapainya SDG 4, masyarakat diharapkan memiliki keterampilan dan wawasan yang cukup untuk berpartisipasi dalam dunia kerja, kehidupan sosial, dan pembangunan negara. Pendidikan yang baik menjadi fondasi penting untuk mengurangi kemiskinan, meningkatkan kesejahteraan, dan menciptakan generasi yang siap menghadapi tantangan global.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- SECTIONS LAINNYA -->
+    <!-- SECTIONS ANALISIS -->
+<section id="analisis-page" class="page">
+    <div class="card">
+        <h1>📊 Analisis SDG 4 (Pilih Sub-Menu di Atas)</h1>
+        <p>Pilih salah satu sub-menu (Kondisi & Tantangan, Potensi & Peluang, atau Peran Masyarakat) untuk melihat detail analisis kami tentang implementasi SDG 4 di Indonesia.</p>
+    </div>
+</section>
+
+<section id="analisis-kondisi" class="page">
+    <div class="card">
+        <h1>📉 Kondisi dan Tantangan</h1>
+        
+        <div class="analisis-container">
+            <!-- Text Box 1 -->
+            <div class="analisis-item">
+                <div class="analisis-gambar">
+                    <img src="kondisi1.jpg" alt="Kondisi Pendidikan Global">
+                </div>
+                <div class="analisis-teks">
+                    <h3>🌍 Kondisi Global & Indonesia</h3>
+                    <p>Secara global, kemajuan menuju SDG 4 berjalan, tetapi lambat dan tidak merata: beberapa indikator, seperti penyelesaian jenjang sekolah sudah membaik, namun banyak target masih terancam gagal tercapai pada 2030. Laporan pemantauan pendidikan UNESCO/Global Education Monitoring (GEM) 2024 menunjukkan bahwa populasi anak yang tidak bersekolah hanya turun sedikit dalam hampir satu dekade terakhir, dan dunia masih jauh dari target beberapa indikator utama.</p>
+                    <p>Data internasional juga menunjukkan tingkat penyelesaian: pada 2023 tingkat penyelesaian mencapai sekitar 88% untuk SD tingkat dasar (primary), 78% untuk lower secondary, dan 59% untuk upper secondary, tetapi angka ini berbeda jauh antar wilayah.</p>
+                </div>
+            </div>
+
+            <!-- Text Box 2 -->
+            <div class="analisis-item analisis-kanan">
+                <div class="analisis-teks">
+                    <h3>🚧 Tantangan Utama</h3>
+                    <p><strong>1. Kualitas pembelajaran dan literasi dasar</strong> masih menjadi masalah besar: banyak anak yang hadir di sekolah namun belum mencapai kompetensi dasar membaca dan berhitung (foundational literacy & numeracy).</p>
+                    <p><strong>2. Kesenjangan akses</strong> anak di daerah terpencil, keluarga miskin, atau penyandang disabilitas seringkali mengalami hambatan akses fasilitas, guru, dan materi pembelajaran.</p>
+                    <p><strong>3. Kekurangan dan distribusi guru berkualitas:</strong> banyak negara mengalami defisit guru atau guru kurang mendapatkan pelatihan yang memadai, yang berdampak pada hasil belajar.</p>
+                </div>
+                <div class="analisis-gambar">
+                    <img src="tantangan.jpg" alt="Tantangan Pendidikan">
+                </div>
+            </div>
+
+            <!-- Text Box 3 (lanjutan tantangan) -->
+            <div class="analisis-item">
+                <div class="analisis-gambar">
+                    <img src="tantangan1.jpeg" alt="Digital Divide">
+                </div>
+                <div class="analisis-teks">
+                    <h3>💻 Tantangan Lanjutan</h3>
+                    <p><strong>4. Digital divide dan infrastruktur:</strong> adopsi pembelajaran daring meningkat setelah pandemi, tetapi akses internet dan perangkat tidak merata sehingga memperlebar ketimpangan pendidikan.</p>
+                    <p><strong>5. Pembiayaan pendidikan dan kebijakan</strong> yang belum selalu tepat sasaran juga menghambat percepatan pencapaian target SDG 4.</p>
+                    <p>Di Indonesia, data resmi terbaru dari Kemendikbud Ristek dan BPS melaporkan peningkatan akses pendidikan (jumlah peserta didik dan satuan pendidikan meningkat) serta beberapa perbaikan lingkungan belajar, tetapi tantangan kualitas pembelajaran, pemerataan antar daerah (termasuk daerah terpencil), dan ketersediaan guru tetap nyata.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="analisis-potensi" class="page">
+    <div class="card">
+        <h1>📈 Potensi dan Peluang</h1>
+        
+        <div class="analisis-container">
+            <!-- Text Box 1 -->
+            <div class="analisis-item">
+                <div class="analisis-gambar">
+                    <img src="potensi.jpg" alt="Teknologi Pendidikan">
+                </div>
+                <div class="analisis-teks">
+                    <h3>🚀 Potensi Teknologi & Kebijakan</h3>
+                    <p>Potensi besar dalam mencapai SDG 4 muncul dari semakin pesatnya perkembangan teknologi pendidikan dan ketersediaan bahan ajar digital. Teknologi ini membuka kesempatan untuk memperluas akses belajar bagi para siswa di berbagai daerah, termasuk wilayah yang sulit dijangkau.</p>
+                    <p>Jika didukung dengan infrastruktur memadai dan pelatihan guru yang kuat, dapat disediakan pengalaman belajar yang lebih menarik, interaktif, dan juga bervariasi. Selain itu, meningkatnya kesadaran publik dan komitmen pemerintah terhadap target SDG 4 memungkinkan adanya kebijakan yang lebih terarah, termasuk pemanfaatan dashboard monitoring pendidikan untuk menentukan intervensi yang tepat sasaran.</p>
+                </div>
+            </div>
+
+            <!-- Text Box 2 -->
+            <div class="analisis-item analisis-kanan">
+                <div class="analisis-teks">
+                    <h3>🤝 Program & Generasi Muda</h3>
+                    <p>Peluang lainnya datang dari program-program dukungan pendidikan seperti beasiswa, bantuan biaya, dan kerja sama antara pemerintah, sektor swasta, serta organisasi internasional. Program seperti KIP di Indonesia membantu membuka akses ke jenjang pendidikan yang lebih tinggi dan pelatihan vokasi.</p>
+                    <p>Generasi muda yang peka teknologi juga menjadi peluang besar, karena mereka mampu berperan sebagai agen perubahan melalui pembuatan konten belajar lokal, tutor sebaya, hingga pembentukan komunitas belajar. Dengan pengelolaan yang baik, kombinasi teknologi, data pendidikan, dan kolaborasi banyak pihak dapat meningkatkan kualitas pembelajaran secara signifikan dan mempercepat pencapaian tujuan SDG 4.</p>
+                </div>
+                <div class="analisis-gambar">
+                    <img src="program.jpg" alt="Kolaborasi Pendidikan">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="analisis-peran" class="page">
+    <div class="card">
+        <h1>👥 Peran Masyarakat</h1>
+        
+        <div class="peran-intro">
+            <h2>✨ Peran masyarakat (konkrit & yang bisa dilakukan sekarang)</h2>
+        </div>
+        
+        <div class="analisis-container">
+            <!-- Sekolah & Guru -->
+            <div class="analisis-item">
+                <div class="analisis-gambar">
+                    <img src="guru.jpg" alt="Sekolah & Guru">
+                </div>
+                <div class="analisis-teks">
+                    <h3>🏫 Sekolah & Guru</h3>
+                    <p>Meningkatkan praktik pembelajaran yang berpusat pada siswa, menerapkan penilaian formatif untuk memantau literasi/numerasi dasar, dan ikut pelatihan profesionalisasi guru.</p>
+                </div>
+            </div>
+
+            <!-- Orang Tua & Keluarga -->
+            <div class="analisis-item analisis-kanan">
+                <div class="analisis-teks">
+                    <h3>👨‍👩‍👧‍👦 Orang tua & Keluarga</h3>
+                    <p>Mendukung waktu belajar di rumah, membaca bersama anak, dan memantau kehadiran serta tugas sekolah; keluarga yang aktif meningkatkan keberlangsungan belajar anak.</p>
+                </div>
+                <div class="analisis-gambar">
+                    <img src="family.jpeg" alt="Orang Tua & Keluarga">
+                </div>
+            </div>
+
+            <!-- Komunitas & LSM -->
+            <div class="analisis-item">
+                <div class="analisis-gambar">
+                    <img src="komunitas.png" alt="Komunitas & LSM">
+                </div>
+                <div class="analisis-teks">
+                    <h3>🤝 Komunitas & LSM</h3>
+                    <p>Memfasilitasi kelas remedial, program literasi komunitas, perpustakaan keliling, atau program bimbingan belajar untuk anak yang tertinggal; juga membantu identifikasi anak putus sekolah.</p>
+                </div>
+            </div>
+
+            <!-- Sektor Swasta & Teknologi -->
+            <div class="analisis-item analisis-kanan">
+                <div class="analisis-teks">
+                    <h3>💼 Sektor swasta & Teknologi</h3>
+                    <p>Menyediakan infrastruktur (mis. akses internet, perangkat) di daerah kurang terlayani, menyumbang modul pembelajaran digital yang relevan, atau bermitra dengan sekolah untuk program magang/vokasi.</p>
+                </div>
+                <div class="analisis-gambar">
+                    <img src="tekno.jpg" alt="Sektor Swasta">
+                </div>
+            </div>
+
+            <!-- Pemerhati & Pelajar -->
+            <div class="analisis-item">
+                <div class="analisis-gambar">
+                    <img src="pelajar.jpg" alt="Pelajar">
+                </div>
+                <div class="analisis-teks">
+                    <h3>🎓 Pemerhati & Pelajar</h3>
+                    <p>Pelajar bisa menjadi tutor sebaya, membuat komunitas belajar online/offline, dan mengadvokasi kebijakan pendidikan setempat melalui OSIS atau komunitas pelajar.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="peran-kesimpulan">
+            <h3>💫 Peran-peran ini penting karena pencapaian SDG 4 tidak cukup hanya kebijakan pusat. Tindakan lokal dan berkelanjutan dari masyarakatlah yang mengisi celah implementasi di lapangan.</h3>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION SOLUSI -->
+<section id="solusi" class="page">
+    <div class="card">
+        <h1>💡 Solusi untuk Mewujudkan SDG 4</h1>
+        
+        <!-- TINDAKAN NYATA -->
+        <div class="sub-bab-header">
+            <h2>🎯 Tindakan Nyata untuk Mendukung Pendidikan Berkualitas</h2>
+        </div>
+        
+        <div class="solusi-container">
+            <!-- Paragraf 1 dengan 2 foto -->
+            <div class="solusi-item">
+                <div class="solusi-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="berbagi pengetahuan.jpg" alt="Berbagi Pengetahuan">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="bantuan belajar.jpg" alt="Bantuan Belajar">
+                    </div>
+                </div>
+                <div class="solusi-teks">
+                    <p>Sebagai pelajar, saya sebenarnya punya banyak cara untuk ikut berperan dalam menyebarluaskan pendidikan berkualitas di Indonesia, meskipun masih dalam lingkup kecil. Salah satu langkah yang bisa saya lakukan adalah berbagi pengetahuan dengan teman atau adik kelas yang membutuhkan bantuan. Misalnya membantu mereka belajar sebelum ulangan, membuat rangkuman materi, atau menjelaskan pelajaran yang sulit dipahami. Langkah sederhana ini bisa membantu menciptakan lingkungan belajar yang saling mendukung.</p>
+                </div>
+            </div>
+
+            <!-- Paragraf 2 dengan 2 foto -->
+            <div class="solusi-item solusi-kanan">
+                <div class="solusi-teks">
+                    <p>Selain itu, saya bisa ikut serta dalam kegiatan sosial pendidikan, seperti mengajar anak-anak di komunitas, ikut pengabdian masyarakat, atau terlibat dalam program literasi jika sekolah mengadakannya. Kegiatan seperti ini membantu memperluas akses pendidikan bagi anak-anak yang mungkin tidak mendapatkan kesempatan belajar yang sama.</p>
+                </div>
+                <div class="solusi-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="kegiatan sosial.jpg" alt="Kegiatan Sosial">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="belajar.jpg" alt="Program Literasi">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paragraf 3 dengan 2 foto -->
+            <div class="solusi-item">
+                <div class="solusi-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="sosial media.jpg" alt="Media Sosial Edukasi">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="yt.jpg" alt="Konten Edukatif">
+                    </div>
+                </div>
+                <div class="solusi-teks">
+                    <p>Saya juga bisa memanfaatkan media sosial untuk menyebarkan informasi positif tentang pentingnya pendidikan. Contohnya, membuat konten edukatif sederhana, membagikan tips belajar, atau mendorong teman-teman supaya lebih peduli terhadap isu-isu pendidikan di Indonesia. Dengan cara ini, awareness tentang SDG 4 bisa tersebar lebih luas.</p>
+                </div>
+            </div>
+
+            <!-- Paragraf 4 dengan 2 foto -->
+            <div class="solusi-item solusi-kanan">
+                <div class="solusi-teks">
+                    <p>Di sekolah, saya juga bisa ikut menjaga budaya belajar yang baik: disiplin, menghargai guru, tidak menyontek, aktif bertanya, dan menggunakan fasilitas belajar dengan bertanggung jawab. Sikap seperti ini menunjukkan bahwa pendidikan berkualitas dimulai dari diri sendiri.</p>
+                </div>
+                <div class="solusi-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="budaya sekolah.jpg" alt="Budaya Belajar">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="lab ipa.jpeg" alt="Disiplin Sekolah">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paragraf 5 dengan 2 foto -->
+            <div class="solusi-item">
+                <div class="solusi-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="donasi.jpg" alt="Donasi Buku">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="programsekolah.jpg" alt="Program Sekolah">
+                    </div>
+                </div>
+                <div class="solusi-teks">
+                    <p>Terakhir, saya bisa mendukung kegiatan atau program sekolah yang berkaitan dengan pemerataan pendidikan, seperti donasi buku, penggalangan alat tulis, atau kerja sama dengan sekolah lain. Walaupun kecil, kontribusi ini tetap berarti karena membantu menciptakan kesempatan belajar yang lebih merata.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PENGALAMAN PRIBADI -->
+        <div class="sub-bab-header">
+            <h2>🌟 Pengalaman Pribadi Saya dalam Melaksanakan Pendidikan Berkualitas</h2>
+        </div>
+        
+        <div class="pengalaman-container">
+            <!-- Paragraf 1 dengan 2 foto -->
+            <div class="pengalaman-item">
+                <div class="pengalaman-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="kelas.jpg"Santa Ursula Jakarta">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="perpus.jpg" alt="Fasilitas Sekolah">
+                    </div>
+                </div>
+                <div class="pengalaman-teks">
+                    <p>Sebagai siswi di Santa Ursula Jakarta, saya merasa sangat beruntung karena bisa merasakan langsung bagaimana pendidikan berkualitas diwujudkan setiap hari. Sekolah memberikan lingkungan belajar yang aman, nyaman, dan lengkap, mulai dari ruang kelas, perpustakaan, laboratorium, hingga fasilitas teknologi yang mendukung proses pembelajaran. Para guru juga sangat peduli dan selalu mendorong saya untuk berpikir kritis, bertanya, dan mengembangkan potensi diri. Melalui pembelajaran yang terarah dan pendampingan yang konsisten, saya benar-benar merasakan bahwa hak atas pendidikan berkualitas bukan hanya sebuah konsep, tetapi sesuatu yang saya alami sendiri dalam keseharian.</p>
+                </div>
+            </div>
+
+            <!-- Paragraf 2 dengan 2 foto -->
+            <div class="pengalaman-item pengalaman-kanan">
+                <div class="pengalaman-teks">
+                    <p>Selain itu, Santa Ursula Jakarta menanamkan nilai kedisiplinan, kepedulian, dan tanggung jawab sosial yang membuat saya memahami bahwa pendidikan tidak hanya tentang nilai akademik, tetapi juga pembentukan karakter. Berbagai kegiatan seperti proyek sosial, kerja kelompok, dan program pengembangan diri membantu saya belajar bekerja sama, peduli lingkungan sekitar, dan menghargai perbedaan. Pengalaman ini membuat saya semakin memahami pentingnya SDG 4, karena ketika seseorang mendapatkan pendidikan yang baik, ia tidak hanya berkembang secara pribadi, tetapi juga mampu memberi kontribusi yang lebih besar bagi masyarakat. Dengan dapat bersekolah di Santa Ursula Jakarta, saya merasa ikut ambil bagian dalam upaya mewujudkan pendidikan berkualitas bagi semua.</p>
+                </div>
+                <div class="pengalaman-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="kelas.jpeg" alt="Kegiatan Sosial">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="mentimoen.jpeg" alt="Kerja Kelompok">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<!-- SECTION KERJASAMA -->
+<section id="kerjasama-page" class="page">
+    <div class="card">
+        <h1>🤝 Bentuk Kerjasama SDGs (Pilih Sub-Menu di Atas)</h1>
+        <p>SDG 4 memerlukan kerja sama dari berbagai pihak. Silakan pilih sub-menu Bilateral, Regional, atau Multilateral untuk melihat contoh bentuk kerja sama tersebut.</p>
+    </div>
+</section>
+
+<section id="kerjasama-bilateral" class="page">
+    <div class="card">
+        <h1>🌐 Kerjasama Bilateral</h1>
+        
+        <div class="kerjasama-container">
+            <div class="kerjasama-item">
+                <div class="kerjasama-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="bilateral.jpg" alt="Kerjasama Dua Negara">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="bilateral2.jpg" alt="Pertukaran Pelajar">
+                    </div>
+                </div>
+                <div class="kerjasama-teks">
+                    <h3>🇮🇩🤝🇯🇵 Kerjasama Dua Arah</h3>
+                    <p>Kerja sama bilateral membuka peluang bagi dua negara untuk menggabungkan sumber daya, teknologi, dan keahlian sehingga pendidikan dapat berkembang lebih cepat dan terarah. Contohnya, satu negara dapat memberikan bantuan pelatihan guru, beasiswa studi, transfer teknologi EdTech, atau dukungan kurikulum sains dan vokasi sesuai kebutuhan negara mitra.</p>
+                    <p>Program pertukaran pelajar dan dosen juga dapat meningkatkan kualitas pembelajaran serta memperluas wawasan global peserta didik. Melalui kemitraan dua arah yang fleksibel, negara dapat mempelajari model pendidikan yang sukses dari mitra lain dan menyesuaikannya dengan kondisi lokal.</p>
+                    <p class="kesimpulan">Dengan demikian, kerja sama bilateral menjadi strategi yang efektif untuk memperkuat kualitas pendidikan sekaligus mempercepat pencapaian SDG 4.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="kerjasama-regional" class="page">
+    <div class="card">
+        <h1>🌏 Kerjasama Regional</h1>
+        
+        <div class="kerjasama-container">
+            <div class="kerjasama-item kerjasama-kanan">
+                <div class="kerjasama-teks">
+                    <h3>🏛️ Kolaborasi Kawasan ASEAN</h3>
+                    <p>Kerja sama regional dapat mempercepat pencapaian SDG 4 melalui kolaborasi antarnegara dalam satu kawasan, misalnya pertukaran praktik terbaik pendidikan, penyelarasan standar kompetensi, dan penguatan pelatihan guru.</p>
+                    <p>Di ASEAN, negara-negara anggota dapat membuat platform bersama untuk berbagi modul digital, memperluas akses beasiswa regional, serta mengembangkan pusat riset pendidikan yang fokus pada inovasi pembelajaran.</p>
+                    <p>Selain itu, kerja sama regional memungkinkan pembangunan infrastruktur pendidikan di daerah perbatasan, termasuk jaringan internet dan sekolah berbasis komunitas, sehingga kesenjangan kualitas pendidikan antardaerah dapat ditekan.</p>
+                    <p class="kesimpulan">Dengan solidaritas dan komitmen kawasan, setiap negara dapat memperkuat sistem pendidikannya sekaligus saling mendukung pencapaian target SDG 4.</p>
+                </div>
+                <div class="kerjasama-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="regional.png" alt="Kerjasama ASEAN">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="regional2.jpeg" alt="Infrastruktur Perbatasan">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="kerjasama-multilateral" class="page">
+    <div class="card">
+        <h1>🌍 Kerjasama Multilateral</h1>
+        
+        <div class="kerjasama-container">
+            <div class="kerjasama-item">
+                <div class="kerjasama-gambar-dua">
+                    <div class="gambar-item">
+                        <img src="multilateral.jpg" alt="UNESCO UNICEF">
+                    </div>
+                    <div class="gambar-item">
+                        <img src="multi2" alt="Pendidikan Global">
+                    </div>
+                </div>
+                <div class="kerjasama-teks">
+                    <h3>🌐 Sinergi Global</h3>
+                    <p>Kerja sama multilateral berperan besar dalam mewujudkan SDG 4 karena melibatkan banyak pihak, negara-negara, lembaga internasional seperti UNESCO, UNICEF, dan World Bank, serta sektor swasta global, untuk memberikan dukungan luas bagi peningkatan kualitas pendidikan.</p>
+                    <p>Kerja sama ini mencakup pendanaan pendidikan, penelitian internasional, proyek digitalisasi sekolah, peningkatan literasi, hingga penguatan pelatihan guru skala global.</p>
+                    <p>Selain itu, lembaga multilateral menyediakan data, monitoring, dan evaluasi yang membantu negara mengidentifikasi tantangan serta menentukan kebijakan yang lebih tepat sasaran.</p>
+                    <p class="kesimpulan">Dengan sinergi global yang terstruktur, negara-negara dapat saling melengkapi dan mempercepat pemerataan pendidikan berkualitas di seluruh dunia sesuai target SDG 4.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION TENTANG KAMI -->
+<section id="tentang" class="page">
+    <div class="card">
+        <h1>👥 Tentang Kami</h1>
+        
+        <div class="tentang-container">
+            <!-- Text Box 1 - Informasi Pribadi dengan Foto -->
+            <div class="tentang-item">
+                <div class="tentang-gambar">
+                    <img src="makay.jpeg" alt="Foto Makayla Pascaline">
+                </div>
+                <div class="tentang-teks">
+                    <h3>📝 Informasi Pribadi</h3>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span class="info-label">🎯 Nama:</span>
+                            <span class="info-value">Makayla Pascaline</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">🏫 Kelas:</span>
+                            <span class="info-value">IX-4</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">🔢 No. Absen:</span>
+                            <span class="info-value">26</span>
+                        </div>
+                    </div>
+                    <p class="info-quote">"Berusaha memberikan yang terbaik dalam setiap karya dan pelayanan" ✨</p>
+                </div>
+            </div>
+
+            <!-- Text Box 2 - Tujuan Website (tanpa foto) -->
+            <div class="tentang-item-full">
+                <div class="tentang-teks-full">
+                    <h3>🌍 Tujuan Pembuatan Website</h3>
+                    <p>Website ini dibuat sebagai media informasi dan edukasi untuk membantu masyarakat, khususnya pelajar, memahami pentingnya Sustainable Development Goals (SDGs), terutama SDG 4 yaitu Pendidikan Berkualitas.</p>
+                    <p>Melalui website ini, saya ingin menyajikan penjelasan yang lengkap namun mudah dipahami mengenai tantangan, potensi, dan solusi dalam mewujudkan pendidikan yang inklusif, merata, dan bermutu di Indonesia.</p>
+                    <p>Selain itu, website ini juga bertujuan menunjukkan bagaimana kerja sama bilateral, regional, dan multilateral berperan penting dalam memperkuat sistem pendidikan di berbagai negara.</p>
+                    <p>Dengan adanya platform ini, saya berharap semakin banyak orang yang sadar akan pentingnya pendidikan berkualitas dan termotivasi untuk ikut berkontribusi, baik melalui tindakan sederhana maupun keterlibatan langsung dalam kegiatan sosial dan pembelajaran.</p>
+                    <p>Website ini juga menjadi bentuk partisipasi saya dalam kampanye SDGs serta sebagai wadah latihan untuk mengembangkan kemampuan literasi digital serta pembuatan website dan kolaborasi lintas mata pelajaran (ILP).</p>
+                </div>
+            </div>
+
+            <!-- Text Box 3 - Nilai Serviam (tanpa foto) -->
+            <div class="tentang-item-full">
+                <div class="tentang-teks-full">
+                    <h3>💫 Nilai Serviam dalam Proyek Ini</h3>
+                    <p>Nilai Serviam yang paling menonjol selama pembuatan website ini adalah <strong>totalitas dan pelayanan</strong>. Dalam proses mengerjakan proyek ini, saya berusaha memberikan yang terbaik mulai dari mengumpulkan informasi, menyusun isi, sampai membuat tampilan website yang rapi dan mudah dipahami.</p>
+                    <p>Saya ingin website ini bukan hanya memenuhi tugas sekolah, tetapi juga benar-benar bermanfaat bagi orang lain yang ingin memahami SDG 4 dan pentingnya pendidikan berkualitas.</p>
+                    <p>Dengan bekerja secara menyeluruh dan penuh tanggung jawab, saya merasa menerapkan <strong>totalitas dalam berkarya</strong>. Sementara itu, semangat <strong>pelayanan</strong> terlihat dari keinginan saya untuk menghadirkan informasi yang jelas, akurat, dan dapat membantu siapa pun yang membacanya.</p>
+                    <p class="serviam-quote">🎯 Totalitas dan pelayanan ini menjadi wujud nyata nilai Serviam dalam proses pembuatan website ini.</p>
+                </div>
+            </div>
+
+            <!-- Text Box 4 - Nilai Pancasila (tanpa foto) -->
+            <div class="tentang-item-full">
+                <div class="tentang-teks-full">
+                    <h3>🤩 Nilai Pancasila dalam SDG 4</h3>
+                    <p>Nilai Pancasila yang paling menonjol dari SDG 4 adalah <strong>Sila ke-5, Keadilan Sosial bagi Seluruh Rakyat Indonesia</strong>. SDG 4 menekankan bahwa setiap orang, tanpa memandang latar belakang, ekonomi, gender, atau kondisi sosial, berhak mendapatkan pendidikan yang layak dan bermutu.</p>
+                    <p>Semangat ini sejalan dengan prinsip keadilan sosial yang memastikan seluruh warga negara memiliki kesempatan yang sama untuk berkembang melalui pendidikan.</p>
+                    <p>Selain itu, <strong>Sila ke-2, Kemanusiaan yang Adil dan Beradab</strong>, juga sangat tampak dalam upaya menghadirkan pendidikan inklusif yang menghargai martabat manusia, mendorong kesetaraan, dan menghapuskan diskriminasi dalam dunia pendidikan.</p>
+                    <p class="pancasila-quote">📚 Dengan kata lain, SDG 4 bukan hanya berkaitan dengan akses belajar, tetapi juga mencerminkan nilai kemanusiaan dan keadilan yang menjadi dasar Pancasila.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Tentang Kami -->
+        <div class="tentang-footer">
+            <h3>🙏 Terima Kasih Telah Mengunjungi Website Kami!</h3>
+            <p>Semoga informasi yang disajikan dapat bermanfaat dan menginspirasi untuk turut mendukung pendidikan berkualitas di Indonesia.</p>
+        </div>
+    </div>
+</section>
+
+</main>
+
+    <script>
+        function showPage(id) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+            window.scrollTo(0,0);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            showPage('beranda');
+        });
+    </script>
+</body>
+</html>
